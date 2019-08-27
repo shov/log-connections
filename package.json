@@ -1,0 +1,26 @@
+{
+  "name": "log-connections",
+  "version": "0.0.1",
+  "description": "Just log http connections",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shov/log-connections.git"
+  },
+  "author": "shov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shov/log-connections/issues"
+  },
+  "homepage": "https://github.com/shov/log-connections#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^3.10.0"
+  }
+}
